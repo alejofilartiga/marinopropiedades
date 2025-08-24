@@ -3,5 +3,18 @@
 ---
 
 <main>
-    
+    <div>
+        <h2></h2>
+        <br>
+        <form action="/send-message" method="POST">
+            <input type="text" id="name" name="name" required>
+            <input type="email" id="email" name="email" required>
+            <input type="number" name="cellphone" id="cellphone">
+            <textarea id="message" name="message" required></textarea>
+            <div>
+                <button type="submit"></button>
+                <button type="reset"></button>
+            </div>
+        </form>
+    </div>
 </main>
