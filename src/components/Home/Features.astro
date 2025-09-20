@@ -13,11 +13,11 @@ import house from "./img/casa.png"
         <a class="bg-amber-500 text-2xl rounded-2xl px-10 py-2" href="">Ver Todas</a>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="flex justify-center items-center gap-10 flex-col bg-gray-400 rounded-lg"> 
-            <img src="https://placehold.co/600x400" alt="Property Image" class="w-full h-auto rounded-lg shadow-lg ">
-            <div>
+        <div class="flex justify-center items-center flex-col bg-gray-400 rounded-lg "> 
+            <img src="https://placehold.co/600x400" alt="Property Image" class="w-full h-auto rounded-lg shadow-lg rounded-b-none ">
+            <div class="flex justify-between items-center w-full bg-gray-600 text-2xl px-2 py-2 font-bold">
                 <h2>U$D <span>$1500</span></h2>
-                <img src={house.src} alt="House Icon">
+                <img src={house.src} class="w-10" alt="House Icon">
             </div>
             <div>
                 <img src={size.src} alt="Size Icon">
